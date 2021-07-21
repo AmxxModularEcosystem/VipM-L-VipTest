@@ -75,7 +75,7 @@ bool:@OnCheck(const UserId, const Trie:Params){
     }
 
     nvault_pset(ghNvault, SteamId, IntToStr(get_systime()));
-    client_print_color(UserId, print_team_default, "^4[^3VipTest^4] ^3Вы взяли тестовую VIP на ^4%d часа^3.");
+    client_print_color(UserId, print_team_default, "^4[^3VipTest^4] ^3Вы взяли тестовую VIP на ^4%d часа^3.", Cvar(Duration));
     return PLUGIN_HANDLED;
 }
 
