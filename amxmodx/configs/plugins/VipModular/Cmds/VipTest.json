@@ -1,0 +1,7 @@
+{
+    "viptest": [
+        "viptest",
+        "say /viptest",
+        "say_team /viptest"
+    ]
+}
