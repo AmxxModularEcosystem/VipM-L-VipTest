@@ -30,7 +30,6 @@ InitCvars() {
 
 @Cvar_Duration(pCvar, const sOldValue[], const sNewValue[]) {
     Cvar(Duration) = ParseTimeLength(sNewValue);
-    server_print("@Cvar_Duration(%d, %s, %s): %d", pCvar, sOldValue, sNewValue, Cvar(Duration));
 }
 
 @Cvar_Cooldown(pCvar, const sOldValue[], const sNewValue[]) {

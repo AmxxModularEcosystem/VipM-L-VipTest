@@ -1,3 +1,5 @@
 *.amxx
 *.zip
-dec/
+.build
+plugins-*.ini
+local.build-config
